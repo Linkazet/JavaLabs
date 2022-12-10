@@ -21,6 +21,6 @@ public class Example2_IfElse {
             System.out.println("Порядковый номер равен 6");
         } else if (a.equals("воскресенье")){
             System.out.println("Порядковый номер равен 7");
-        }
+        } else System.out.println("Такого дня недели нет");
     }
 }
