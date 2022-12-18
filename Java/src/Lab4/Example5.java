@@ -13,20 +13,21 @@ public class Example5 {
         int[][] mass = new int[a][b];
         Random rand = new Random();
         for (int i = 0 ; i < a ; i++) {
-            System.out.println("Номер строки: " + i + " ");
+            System.out.print("Номер строки: " + i + " | ");
             for (int j = 0; j < b; j++) {
                 mass[i][j] = rand.nextInt(100);
-                System.out.println(mass[i][j]);
+                System.out.print(mass[i][j] + " ");
             }
+            System.out.println();
         }
         int[][] reverse = new int[b][a];
         for (int i = 0 ; i < b ; i++) {
-            System.out.println("Номер строки обратного массива: " + i + " ");
+            System.out.print("Номер строки обратного массива: " + i + " | ");
             for (int j = 0; j < a; j++) {
                 reverse [i][j] = mass [j][i];
-                System.out.println(reverse[i][j]);
+                System.out.print(reverse[i][j] + " ");
             }
+            System.out.println();
         }
-        
     }
 }
