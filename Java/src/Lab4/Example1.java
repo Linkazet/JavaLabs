@@ -8,10 +8,10 @@ public class Example1 {
         int z;
 
         for (i = 1; i <= a; i++) {
-            System.out.println("Номер строки: " + i + " ");
+            System.out.print("Номер строки: " + i + " ");
             z = 0;
             for (j = -11; j <= a; j++) {
-                System.out.println("+");
+                System.out.print("+");
                 z = z + 1;
             }
             System.out.println(" Количество символов в строке " + z);
