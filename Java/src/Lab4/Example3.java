@@ -20,10 +20,10 @@ public class Example3 {
             }
         }
         for (i = 0; i < b; i++) {
-            System.out.println("Номер строки: " + i + " ");
+            System.out.print("Номер строки: " + i + " | ");
             z = 0;
             for (j = 0; j < c; j++) {
-                System.out.println(mass[i][j] + " ");
+                System.out.print(mass[i][j] + " ");
                 z = z + 1;
             }
             System.out.println("Количество символов в строке " + z);
