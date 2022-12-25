@@ -20,7 +20,7 @@ class task {
     }
 
     public void showCode () {
-        System.out.println(ch1);
         System.out.println((int) ch1);
+        System.out.println(ch1);
     }
 }
