@@ -12,7 +12,7 @@ public class Example6 {
         task task1 = new task();
         task task2 = new task(a);
         task task3 = new task(a,b);
-        System.out.println("\nДо использования методов:");
+        System.out.println("До использования методов:");
         System.out.println("Содержимое первого объекта:");
         task1.task3();
         System.out.println("Содержимое второго объекта:");
