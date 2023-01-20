@@ -20,7 +20,7 @@ public class Example6 {
         System.out.println("Содержимое третьего объекта:");
         task3.task3();
 
-        System.out.println("\nПосле использования методов:");
+        System.out.println("После использования методов:");
         task1.task2(a,b);
         task2.task1(b);
         System.out.println("Содержимое первого объекта:");
